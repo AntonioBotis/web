@@ -1,4 +1,12 @@
 
+header {
+    background-color: whitesmoke;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
 title{
     font-size: 24px;
     color: darkblue;
@@ -8,9 +16,140 @@ title{
 }
 
 h1{
-    font-size: 32px;
-    color: darkred;
+    
+
+    color:#F3C623;
+    
+    font-size: 50px;
+  
+    font-weight: bold;
+    font-family: 'Fugaz One', sans-serif;
+    text-align: left;
+}
+
+.Whatsapp {
+    font-size: 20px;
+    color: greenyellow;
+    
     font-weight: bold;
     font-family: 'Arial', sans-serif;
+    text-align: left;
+
+}
+.box
+{
+    width: 50px;
+    height: 250px;
+    background-color: blue;
+    position: left;
+}
+.description {
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+    font-family: 'Volkhov', sans-serif;
+    text-align: left;
+}
+
+.card {
+  width: 45%;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+body{
+    margin: 50px 50px 0 50px;
+}
+
+footer {
+    background-color: #f5f5f5;
+    padding: 10px;
     text-align: center;
+    clear: left;
+}
+
+
+img
+{
+    width: 300px;
+    height: 250px;
+    border-radius: 30%;
+    margin-right: 20px;
+    float : left;
+}
+
+.shoe-description {
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    font-family: 'Volkhov', serif;
+    text-align: left;
+}
+
+.shoe-price {
+    font-size: 20px;
+    color: black;
+    font-weight: lighter;
+    font-family: 'Volkhov', serif;
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fugaz-one-regular {
+  font-family: "Fugaz One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.volkhov-regular {
+  font-family: "Volkhov", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.volkhov-bold {
+  font-family: "Volkhov", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.volkhov-regular-italic {
+  font-family: "Volkhov", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.volkhov-bold-italic {
+  font-family: "Volkhov", serif;
+  font-weight: 700;
+  font-style: italic;
 }

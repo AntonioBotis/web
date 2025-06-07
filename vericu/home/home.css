@@ -26,6 +26,12 @@ h1{
     font-family: 'Fugaz One', sans-serif;
     text-align: left;
 }
+h1 .highlight {
+    background-color: #24EDCE; /* Culoarea turquaz */
+    padding: 8px 20px; /* Spațiu în interior */
+    border-radius: 50px; /* Rotunjire pentru efect oval */
+    font-weight: bold;
+}
 
 .Whatsapp {
     font-size: 20px;
@@ -74,6 +80,28 @@ footer {
     clear: left;
 }
 
+.buy-button {
+    display: inline-block;
+    padding: 20px 25px;
+    font-family: 'Fugaz One', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: white !important;
+    background-color: #EC24ED;
+    border: none;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.buy-button:hover,
+.buy-button:visited,
+.buy-button:active {
+    color: white !important;
+    text-decoration: none;
+    background-color: #0096A6;
+}
 
 img
 {

@@ -84,6 +84,14 @@ img
     float : left;
 }
 
+.tricou{
+     width: 300px;
+    height: 250px;
+    border-radius: 30%;
+    margin-right: 20px;
+    float : left;
+}
+
 .shoe-description {
     font-size: 20px;
     color: black;

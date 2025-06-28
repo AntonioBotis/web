@@ -42,13 +42,7 @@ h1 .highlight {
     text-align: left;
 
 }
-.box
-{
-    width: 50px;
-    height: 250px;
-    background-color: blue;
-    position: left;
-}
+
 .description {
     font-size: 40px;
     color: black;
@@ -57,17 +51,7 @@ h1 .highlight {
     text-align: left;
 }
 
-.card {
-  width: 45%;
-}
 
-.left {
-  float: left;
-}
-
-.right {
-  float: right;
-}
 
 body{
     margin: 50px 50px 0 50px;
@@ -80,31 +64,10 @@ footer {
     clear: left;
 }
 
-.buy-button {
-    display: inline-block;
-    padding: 20px 25px;
-    font-family: 'Fugaz One', sans-serif;
-    font-size: 16px;
-    font-weight: bold;
-    color: white !important;
-    background-color: #EC24ED;
-    border: none;
-    border-radius: 50px;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
-    cursor: pointer;
-}
 
-.buy-button:hover,
-.buy-button:visited,
-.buy-button:active {
-    color: white !important;
-    text-decoration: none;
-    background-color: #0096A6;
-}
 
-img
-{
+
+img{
     width: 300px;
     height: 250px;
     border-radius: 30%;
@@ -112,13 +75,52 @@ img
     float : left;
 }
 
-.tricou{
-     width: 300px;
-    height: 250px;
-    border-radius: 30%;
-    margin-right: 20px;
-    float : left;
+
+.buy-button {
+    margin-top: 0px;
+    margin-bottom: 100px;
+    padding: 14px 15px;
+    font-family: 'Fugaz One', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: #ED02ED;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    width: 260px;
+    height: 37px;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
 }
+
+.buy-button:hover {
+    background-color: #ff99cc;
+}
+
+
+.shoes-text {
+    align-self: center;
+}
+
+.container {
+  display: inline-flex;
+  gap: 10px;
+  flex-basis: 600px;
+  flex-direction: column;
+  
+  align-items: stretch;
+  
+
+ 
+}
+img {
+  margin-right: 10px;
+}
+
 
 .shoe-description {
     font-size: 20px;
@@ -126,17 +128,17 @@ img
     font-weight: bold;
     font-family: 'Volkhov', serif;
     text-align: left;
+    
 }
 
 .shoe-price {
-    font-size: 20px;
+    font-size: 25px;
     color: black;
     font-weight: lighter;
     font-family: 'Volkhov', serif;
     text-align: left;
+
 }
-
-
 
 
 

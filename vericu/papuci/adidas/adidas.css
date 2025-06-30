@@ -35,6 +35,14 @@
   
 }
 
+.price {
+    font-size: 20px;
+    color: #ED02ED;
+    font-weight: bold;
+    font-family: 'Fugaz One', sans-serif;
+    margin-top: 10px;
+}
+
 .buton-explorare{
 
     box-sizing: border-box;

@@ -48,6 +48,54 @@ document.getElementById('closeOverlay').addEventListener('click', function () {
   document.getElementById('imageOverlay').style.display = 'none';
 });
 </script>
+<script>
+const overlay = document.getElementById('imageOverlay');
+const fullImage = document.getElementById('fullImage');
+const closeBtn = document.getElementById('closeOverlay');
+
+// Funcție de afișare a imaginii fullscreen
+function showImageFullscreen(src) {
+  fullImage.src = src;
+  overlay.style.display = 'flex';
+}
+
+// Închide overlay-ul
+closeBtn.addEventListener('click', () => {
+  overlay.style.display = 'none';
+});
+
+// Deschide imaginea principală la click simplu (dacă ai una principală)
+const mainImage = document.getElementById('displayedImage');
+if (mainImage) {
+  mainImage.addEventListener('click', function () {
+    showImageFullscreen(this.src);
+  });
+}
+
+// Click and hold pe imaginile din galerie
+let holdTimer;
+const holdDuration = 500; // milisecunde pentru "click and hold"
+
+document.querySelectorAll('.gallery-image').forEach(img => {
+  img.addEventListener('mousedown', function () {
+    holdTimer = setTimeout(() => {
+      showImageFullscreen(this.src);
+    }, holdDuration);
+  });
+
+  img.addEventListener('mouseup', () => clearTimeout(holdTimer));
+  img.addEventListener('mouseleave', () => clearTimeout(holdTimer));
+  img.addEventListener('touchstart', function () {
+    holdTimer = setTimeout(() => {
+      showImageFullscreen(this.src);
+    }, holdDuration);
+  });
+
+  img.addEventListener('touchend', () => clearTimeout(holdTimer));
+  img.addEventListener('touchcancel', () => clearTimeout(holdTimer));
+});
+</script>
+
 </body>
 </html>
 

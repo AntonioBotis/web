@@ -71,7 +71,51 @@
         font-size: 10px;
     }
 }
-@media (max-width: 768px) {
+h1 {
+    color: #F3C623;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Fugaz One', sans-serif;
+    text-align: left;
+}
+
+h1 .highlight {
+    background-color: #24EDCE;
+    padding: 8px 20px;
+    border-radius: 50px;
+    font-weight: bold;
+}
+.shoe-description {
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    font-family: 'Volkhov', serif;
+    text-align: left;
+}
+@media (max-width: 768px) 
+{
+  
+  .lista-papuci {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-self:flex-start;
+  gap: 20px;
+  padding: 20px;
+}
+      h1 {
+        font-size: 32px; /* Mai mic pe mobil */
+        text-align: center;
+        
+    }
+    h1 .highlight {
+    background-color: #24EDCE;
+    padding: 8px 20px;
+    border-radius: 30px;
+    font-weight: bold;
+    max-width: 50%;
+    max-height: 50%;
+    }
 
 .lista-papuci {
   display: flex;

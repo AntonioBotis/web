@@ -115,7 +115,7 @@ img {
     flex-direction: column;
     gap: 20px;
     align-items: flex-start;
-    margin-bottom: 40px;
+    
     justify-content: space-around;
     align-items: stretch;
 }
@@ -185,7 +185,7 @@ img {
 
 
     h1 {
-        font-size: 18px; /* Mai mic pe mobil */
+        font-size: 23px; /* Mai mic pe mobil */
         text-align: center;
         
     }
@@ -200,14 +200,14 @@ img {
 
     .description {
       padding-top: 50px;
-        font-size: 14px;
+        font-size: 18px;
         text-align: center;
         padding-bottom: 20px;
     }
 
     .shoe-description,
     .shoe-price {
-        font-size: 10px;
+        font-size: 16px;
     }
 
     .container {
@@ -219,17 +219,17 @@ img {
         float: none;
         margin: 0 auto 10px auto;
         display: block;
-        max-width: 50%;
+        max-width: 70%;
         max-height: 50%;
     }
 
     .buy-button {
         width: 50%;
-        max-width: 100px;
-        max-height: 35px;
+        max-width: 90%;
+        max-height: 30px;
         font-size: 9px;
         text-align: center;
-        line-height: 10px;
+        line-height: 5px;
       
     }
     .buy-button:hover {

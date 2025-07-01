@@ -47,7 +47,7 @@ h1 .highlight {
     display: flex;
     align-items: center;
     flex-direction: column;
-    flex-wrap: wrap;
+    align-items: center;
    
 
    
@@ -66,6 +66,7 @@ h1 .highlight {
     width: 300px;
     height: 250px;
     border-radius: 30%;
+    padding-right: 8px;
    
     
   
@@ -106,6 +107,94 @@ h1 .highlight {
 }
 
 
+@media (max-width: 768px)
+{
+  h1 {
+        font-size: 16px; /* Mai mic pe mobil */
+        text-align: center;
+        
+    }
+    h1 .highlight {
+    background-color: #24EDCE;
+    padding: 8px 20px;
+    border-radius: 30px;
+    font-weight: bold;
+    max-width: 50%;
+    max-height: 50%;
+}
+    .description {
+      padding-top: 50px;
+        font-size: 24px;
+        text-align: center;
+        padding-bottom: 40px;
+    }
+
+    .lista-papuci {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.continut{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+ 
+  align-items: center;
+}
+
+.shoe-item {
+    box-sizing: border-box;
+    padding-left: 10px;
+    width: 150px;
+    height: 185px;
+    border-radius: 30%;
+    padding-top: 2px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+   
+
+   
+
+}
+
+.imagine {
+  margin-top: 10px;
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 30%;
+    padding-right: 7px;
+   
+    
+  
+}
+.shoe-description
+     {
+     margin-top: 5px;
+        font-size: 12px;
+    }
+.buton-explorare {
+       margin-top:10px ;
+        width: 70px;
+        height: 20px;
+        font-size: 9px;
+        text-align: center;
+        
+        padding-right: px;
+      
+    }
+    .buton-explorare:hover {
+    background-color: #ff99cc;
+}
+}
+
+  
 
 
 

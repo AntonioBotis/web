@@ -1,0 +1,124 @@
+
+
+h1{
+    font-family: 'Fugaz One', sans-serif;
+    color: #F3C623;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    background-color: blue;
+    padding: 20px;
+    border-radius: 30px;
+    width: 30%;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 100px;
+}
+
+title {
+    font-family: 'Volkhov', serif;
+}
+
+.dice {
+    box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+    background-color: whitesmoke;
+    border-radius: 20%;
+  
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 70px;
+    
+}
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 70px;
+    
+}
+.roll-button {
+   box-sizing: border-box;
+   width: 180px;
+   height: 50px;
+    font-size: 25px;
+    font-family: Fugaz One, sans-serif;
+    color:#F3C623;
+    background-color: blue;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
+  
+}
+
+
+.dice {
+  transition: transform 0.3s;
+}
+.dice-container img {
+  margin: 0 10px;
+}
+.roll-button:active + .dice-container img {
+  transform: rotate(20deg) scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fugaz-one-regular {
+  font-family: "Fugaz One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.volkhov-regular {
+  font-family: "Volkhov", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.volkhov-bold {
+  font-family: "Volkhov", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.volkhov-regular-italic {
+  font-family: "Volkhov", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.volkhov-bold-italic {
+  font-family: "Volkhov", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+

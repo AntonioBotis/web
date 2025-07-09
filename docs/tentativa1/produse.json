@@ -1,0 +1,15 @@
+{
+  "nike": {
+    "Air Jordan 1": [
+      {
+        "culoare": "Roșu",
+        "pret": "550 RON",
+        "imagini": [
+          "nike/airjordan1/rosu1.jpg",
+          "nike/airjordan1/rosu2.jpg",
+          "nike/airjordan1/rosu3.jpg"
+        ]
+      }
+    ]
+  }
+}

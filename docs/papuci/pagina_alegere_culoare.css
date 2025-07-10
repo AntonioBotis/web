@@ -49,6 +49,7 @@ h1 {
 }
 
 .main-image img {
+
   width: 350px;
   height: auto;
   max-height: 300px;
@@ -66,6 +67,7 @@ h1 {
 }
 
 .thumbnails img {
+  
   width: 70px;
   width: 80px;
   height: 60px;
@@ -88,6 +90,7 @@ h1 {
     font-weight: normal;
     font-family: 'Fugaz One', sans-serif;
     margin-top: 10px;
+
     
 }
 
@@ -110,6 +113,7 @@ h1 {
     display: inline-block;
     text-align: center;
     line-height: 40px;
+    box-shadow: gray 0px 0px 5px;
 
   
 }

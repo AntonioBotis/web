@@ -32,6 +32,7 @@ h1 {
     font-weight: bold;
     font-family: 'Fugaz One', sans-serif;
     text-align: left;
+    
 }
 
 h1 .highlight {
@@ -39,6 +40,8 @@ h1 .highlight {
     padding: 8px 20px;
     border-radius: 50px;
     font-weight: bold;
+    box-shadow: gray 0px 0px 5px;
+
 }
 
 .Whatsapp {
@@ -67,6 +70,7 @@ img {
     border-radius: 30%;
     float: left;
     margin-right: 20px;
+    box-shadow: gray 0px 0px 5px;
 }
 
 .buy-button {
@@ -88,6 +92,7 @@ img {
     display: inline-block;
     text-align: center;
     line-height: 13px;
+    box-shadow: gray 0px 0px 5px;
 }
 
 .buy-button:hover {

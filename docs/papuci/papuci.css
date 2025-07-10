@@ -21,7 +21,7 @@
     flex-direction: column;
     flex-wrap: wrap;
    
-
+box-shadow: gray 0px 0px 5px;
    
 
 }
@@ -37,6 +37,7 @@
     width: 300px;
     height: 250px;
     border-radius: 30%;
+    
    
     
   
@@ -48,7 +49,7 @@
     width: 120px;
     height: 40px;
     font-size: 15px;
-    border-radius: 20% ;
+    border-radius: 20PX ;
     font-weight: bold;
     font-family: 'Fugaz One', sans-serif;
     color: white;
@@ -60,7 +61,7 @@
     align-items: center; /* Centrează pe axa verticală */
  
  
-    
+    box-shadow: gray 0px 0px 3px;
     
 
    &:hover {
@@ -77,6 +78,7 @@ h1 {
     font-weight: bold;
     font-family: 'Fugaz One', sans-serif;
     text-align: left;
+    
 }
 
 h1 .highlight {
@@ -84,6 +86,7 @@ h1 .highlight {
     padding: 8px 20px;
     border-radius: 50px;
     font-weight: bold;
+    box-shadow: gray 0px 0px 5px;
 }
 .shoe-description {
     font-size: 20px;

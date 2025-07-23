@@ -1,0 +1,86 @@
+[
+  {
+    "id": "e-h-b-f",
+    "brand": "Essentials",
+    "type": "Hoodie",
+    "color": "Black",
+    "images": [
+      "https://res.cloudinary.com/duomi60pe/image/upload/v1753277416/e-h-b-f_dgemc1.avif"
+    ]
+  },{
+    "id": "e-h-w-f",
+    "brand": "Essentials",
+    "type": "Hoodie",
+    "color": "White",
+    "images": [
+      "https://res.cloudinary.com/duomi60pe/image/upload/v1753277431/e-h-w-f_dcqwql.avif"
+    ]
+  },{
+    "id": "e-h-g-f",
+    "brand": "Essentials",
+    "type": "Hoodie",
+    "color": "Gray",
+    "images": [
+      "https://res.cloudinary.com/duomi60pe/image/upload/v1753277421/e-h-g-f_klktco.avif"
+    ]
+  },
+  {
+    "id": "e-h-m-f",
+    "brand": "Essentials",
+    "type": "Hoodie",
+    "color": "Matcha-Green",
+    "images": [
+      "https://res.cloudinary.com/duomi60pe/image/upload/v1753277424/e-h-m-f_coox3n.jpg"
+    ]
+  },{
+    "id": "e-h-k-f",
+    "brand": "Essentials",
+    "type": "Hoodie",
+    "color": "Khaki",
+    "images": [
+      "https://res.cloudinary.com/duomi60pe/image/upload/v1753277423/e-h-k-f_bl4hh9.avif"
+    ]
+  },
+    {
+        "id": "e-h-a-f",
+        "brand": "Essentials",
+        "type": "Hoodie",
+        "color": "Apricot",
+        "images": [
+        "https://res.cloudinary.com/duomi60pe/image/upload/v1753277415/e-h-a-f_oefams.jpg"
+        ]
+
+    },
+
+  {
+    "id": "e-h-b-f-1977",
+    "brand": "Essentials-1977",
+    "type": "Hoodie",
+    "color": "Black",
+    "images": [
+      "https://res.cloudinary.com/duomi60pe/image/upload/v1753277416/e-h-b-1977_abmysu.jpg"
+    ]
+  },
+    {
+        "id": "e-h-o-1977",
+        "brand": "Essentials-1977",
+        "type": "Hoodie",
+        "color": "Oats-Gray",
+        "images": ["https://res.cloudinary.com/duomi60pe/image/upload/v1753277428/e-h-o-1977_gufkcv.jpg"]
+  },
+    {
+        "id": "e-h-o-1977",
+        "brand": "Essentials-1977",
+        "type": "Hoodie",
+        "color": "Oats-Gray",
+        "images": ["https://res.cloudinary.com/duomi60pe/image/upload/v1753277428/e-h-o-1977_gufkcv.jpg"]
+  },
+  {
+    "id": "e-c-w-f",
+    "brand": "Essentials",
+    "type": "Crewneck",
+    "color": "White",
+    "images": ["https://res.cloudinary.com/duomi60pe/image/upload/v1753277413/e-c-w-f_bdxkqp.jpg"]
+  }
+
+]

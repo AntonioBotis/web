@@ -1,0 +1,170 @@
+
+
+h1{
+    font-family: 'Fugaz One', sans-serif;
+    color: #F3C623;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    background-color: blue;
+    padding: 20px;
+    border-radius: 50px;
+    width: 30%;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 100px;
+}
+
+title {
+    font-family: 'Volkhov', serif;
+}
+
+.search-bar {
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+   
+    width: 200px;
+    height: 35px;
+    font-size: 20px;
+    font-family: 'Fugaz One', sans-serif;
+    color: #333;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.search-bar2 {
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+   color: #F3C623;
+    width: 250px;
+    height: 35px;
+    font-size: 20px;
+    font-family: 'Fugaz One', sans-serif;
+    color: #333;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 70px;
+}
+
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    gap: 20px;
+}
+
+.box {
+    box-sizing: border-box;
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 20%;
+    padding: 20px;
+    font-family: 'Volkhov', serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+li{
+    list-style-type: none;
+
+    background-color: blue;
+    color: #F3C623;
+    border-radius: 5px;
+    box-shadow: gray 0px 0px 5px;
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    font-family: 'Volkhov', serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: bold;
+
+    gap: 20px;
+
+}
+
+
+button {
+   box-sizing: border-box;
+   width: 180px;
+   height: 50px;
+    font-size: 25px;
+    font-family: Fugaz One, sans-serif;
+    color:#F3C623;
+    background-color: blue;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  
+}
+    button:hover {
+    background-color: #ff99cc;
+}
+
+
+
+
+
+
+
+
+.fugaz-one-regular {
+  font-family: "Fugaz One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.volkhov-regular {
+  font-family: "Volkhov", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.volkhov-bold {
+  font-family: "Volkhov", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.volkhov-regular-italic {
+  font-family: "Volkhov", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.volkhov-bold-italic {
+  font-family: "Volkhov", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+

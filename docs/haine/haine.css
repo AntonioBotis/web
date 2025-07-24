@@ -1,3 +1,4 @@
+/* --- Google Fonts Classes (pastrezi acestea daca vrei sa le folosesti in JS sau altundeva) --- */
 .fugaz-one-regular {
   font-family: "Fugaz One", sans-serif;
   font-weight: 400;
@@ -28,13 +29,11 @@
   font-style: italic;
 }
 
-
-
-/* --- CSS Styles (styles.css) --- */
+/* --- CSS Styles --- */
 
 /* Basic body styling */
 body {
-    font-family: 'Volkhov', serif; /* Apply the imported font if available, otherwise a default serif */
+    font-family: 'Volkhov', serif;
     background-color: #f5f5f5;
     margin: 0;
     padding: 20px;
@@ -43,19 +42,31 @@ body {
 
 /* Header styling */
 h1 {
-    text-align: center;
-    /* font-family: 'Fugaz One', cursive; */ /* Apply the second imported font if available */
-    font-family: Arial, sans-serif; /* Fallback font */
-    color: #333;
+    color: #F3C623;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Fugaz One', sans-serif;
+    text-align: left; /* Implicit stanga pe desktop */
+    margin-top: 0; /* Elimina marginile implicite */
+    margin-bottom: 30px;
+}
+
+h1 .highlight {
+    background-color: #24EDCE;
+    padding: 8px 40px;
+    border-radius: 50px;
+    font-weight: bold;
+    box-shadow: gray 0px 0px 5px;
+    display: inline-block; /* Permite padding si border-radius */
 }
 
 /* Style the filter container and dropdowns */
 .filters {
     display: flex;
     justify-content: center;
-    gap: 20px; /* Space between dropdowns */
+    gap: 20px;
     margin-bottom: 30px;
-    flex-wrap: wrap; /* Wrap on small screens */
+    flex-wrap: wrap;
 }
 
 select {
@@ -64,13 +75,13 @@ select {
     border-radius: 5px;
     background-color: white;
     font-size: 16px;
-    min-width: 150px; /* Minimum width for dropdowns */
+    min-width: 150px;
 }
 
 /* Style the product list container */
 #productList {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Responsive grid */
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 20px;
 }
 
@@ -84,10 +95,11 @@ select {
     text-align: center;
 }
 
+/* Stil pentru imagini - toate au aceeasi inaltime */
 .product img {
     width: 100%;
-    max-width: 100%; /* Ensure image fits within card */
-    height: auto;
+    height: 200px; /* Inaltime fixa pentru toate imaginile */
+    object-fit: cover; /* Pastreaza proportiile si acopera intregul spatiu */
     border-radius: 5px;
     margin-bottom: 10px;
 }
@@ -104,8 +116,96 @@ select {
 
 /* Message for no products found */
 #productList p {
-    grid-column: 1 / -1; /* Span across all columns */
+    grid-column: 1 / -1;
     text-align: center;
     font-size: 18px;
     color: #777;
+}
+
+/* --- Responsive Design pentru Mobile --- */
+@media (max-width: 768px) {
+    body {
+        padding: 15px; /* Mai putin padding pe mobil */
+    }
+
+    h1 {
+        font-size: 32px;
+        text-align: center; /* Centrat pe mobil */
+        margin-bottom: 20px;
+    }
+
+    h1 .highlight {
+        padding: 8px 20px; /* Mai putin padding pe mobil */
+        border-radius: 30px;
+        /* max-width si max-height nu sunt necesare aici pentru text */
+    }
+
+    .filters {
+        gap: 15px; /* Mai putin spatiu intre dropdownuri */
+        flex-direction: column; /* Stack dropdowns pe mobil */
+        align-items: center;
+    }
+
+    select {
+        min-width: 200px; /* Latime mai mare pe mobil pentru usability */
+        width: 90%; /* Ocupa 90% din latime */
+        max-width: 300px; /* Maxim 300px */
+    }
+
+    #productList {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Carduri mai mici */
+        gap: 15px;
+    }
+
+    .product {
+        padding: 10px;
+    }
+
+    .product img {
+        height: 150px; /* Inaltime mai mica pe mobil */
+    }
+
+    .product h3 {
+        font-size: 16px; /* Font mai mic pentru titlu */
+        margin: 8px 0 4px 0;
+    }
+
+    .product p {
+        font-size: 14px; /* Font mai mic pentru descriere */
+        margin: 4px 0;
+    }
+}
+
+/* --- Responsive Design pentru ecrane foarte mici (ex: iPhone SE) --- */
+@media (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h1 .highlight {
+        padding: 6px 15px;
+        border-radius: 25px;
+    }
+
+    .filters {
+        gap: 10px;
+    }
+
+    select {
+        min-width: 90%; /* Aproape intreaga latime */
+        font-size: 14px; /* Font mai mic in dropdown */
+    }
+
+    #productList {
+        grid-template-columns: 1fr; /* Un singur card pe rand */
+        gap: 15px;
+    }
+
+    .product img {
+        height: 180px; /* Putin mai inalt pentru a fi mai vizibil pe ecrane mici */
+    }
 }
